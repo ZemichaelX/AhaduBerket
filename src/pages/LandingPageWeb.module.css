@@ -1,0 +1,384 @@
+.span {
+  color: var(--color-white);
+}
+.span1 {
+  color: #ffb1c9;
+}
+.span2 {
+  font-size: 19.4px;
+}
+.span4 {
+  font-size: 16.2px;
+}
+.span3 {
+  font-size: 19.4px;
+}
+.b {
+  align-self: stretch;
+  position: relative;
+}
+.div,
+.quoteParagraph {
+  display: flex;
+  max-width: 100%;
+}
+.div {
+  width: 375px;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 30px;
+  color: #ffcae0;
+  align-items: center;
+}
+.quoteParagraph {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 45px;
+}
+.exploreCampaigns {
+  position: relative;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: var(--font-kumbh-sans);
+  color: var(--color-white);
+  text-align: left;
+}
+.arrowRight02Icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.btn,
+.quoteContent,
+.quoteContentWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.btn {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xl) 26px;
+  background-color: #ad1453;
+  border-radius: var(--br-21xl);
+  overflow: hidden;
+  flex-direction: row;
+  gap: var(--gap-5xs);
+  white-space: nowrap;
+}
+.btn:hover {
+  background-color: #d43b7a;
+}
+.quoteContent,
+.quoteContentWrapper {
+  flex-direction: column;
+  max-width: 100%;
+}
+.quoteContent {
+  align-self: stretch;
+  gap: 61px;
+}
+.quoteContentWrapper {
+  width: 437.4px;
+  padding: 83px 0 0;
+  box-sizing: border-box;
+  min-width: 437.4px;
+}
+.backgroundSimpleIcon,
+.floorIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 571.4px;
+  height: 493.2px;
+}
+.floorIcon {
+  top: 531.9px;
+  left: 14.5px;
+  width: 558.4px;
+  height: 1.2px;
+}
+.wallIcon {
+  position: absolute;
+  width: calc(100% - 15px);
+  top: 22.9px;
+  right: 5.4px;
+  left: 9.6px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 461.7px;
+  z-index: 1;
+}
+.character2Icon,
+.plantsIcon {
+  position: absolute;
+  top: 156px;
+  left: 440.6px;
+  width: 120.3px;
+  height: 391.9px;
+  z-index: 2;
+}
+.character2Icon {
+  top: 84.3px;
+  left: 241px;
+  width: 228.5px;
+  height: 488.3px;
+  z-index: 3;
+}
+.groupIcon,
+.vectorIcon,
+.vectorIcon1 {
+  position: absolute;
+  height: 8.5%;
+  width: 55.9%;
+  top: 91.13%;
+  right: 31.88%;
+  bottom: 0.37%;
+  left: 12.22%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.groupIcon,
+.vectorIcon1 {
+  height: 65.16%;
+  width: 40.99%;
+  top: 34.82%;
+  right: 40.91%;
+  bottom: 0.02%;
+  left: 18.1%;
+}
+.groupIcon {
+  height: 31.63%;
+  width: 77.54%;
+  top: 7.69%;
+  right: 0;
+  bottom: 60.68%;
+  left: 22.46%;
+  z-index: 1;
+}
+.vectorIcon2 {
+  height: 8.82%;
+  width: 11.84%;
+  top: 7.69%;
+  right: 52.22%;
+  bottom: 83.49%;
+  left: 35.94%;
+  z-index: 2;
+}
+.groupIcon1,
+.groupIcon2,
+.vectorIcon2 {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.groupIcon1 {
+  height: 13.02%;
+  width: 33.48%;
+  top: 0;
+  right: 39.74%;
+  bottom: 86.98%;
+  left: 26.78%;
+  z-index: 3;
+}
+.groupIcon2 {
+  height: 47.34%;
+  width: 37.93%;
+  top: 12.1%;
+  right: 38.27%;
+  bottom: 40.56%;
+  left: 23.8%;
+  display: none;
+}
+.groupIcon3 {
+  position: absolute;
+  height: 33.76%;
+  width: 53.39%;
+  top: 13.25%;
+  right: 46.61%;
+  bottom: 52.99%;
+  left: 0;
+  object-fit: contain;
+  z-index: 3;
+}
+.groupIcon3,
+.groupIcon4,
+.vectorIcon3,
+.vectorIcon4 {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.groupIcon4 {
+  position: absolute;
+  height: 22%;
+  width: 29.37%;
+  top: 77.97%;
+  right: 46.7%;
+  bottom: 0.02%;
+  left: 23.93%;
+  z-index: 1;
+}
+.vectorIcon3,
+.vectorIcon4 {
+  z-index: 2;
+}
+.vectorIcon3 {
+  position: absolute;
+  height: 4.75%;
+  width: 12.96%;
+  top: 76.94%;
+  right: 64.32%;
+  bottom: 18.31%;
+  left: 22.72%;
+}
+.vectorIcon4 {
+  height: 5.95%;
+  width: 13.91%;
+  top: 76.32%;
+  right: 46.35%;
+  bottom: 17.73%;
+  left: 39.74%;
+}
+.group,
+.group1,
+.vectorIcon4 {
+  position: absolute;
+}
+.group1 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+.group {
+  top: 138.8px;
+  left: 36.8px;
+  width: 231.5px;
+  height: 435.4px;
+  z-index: 4;
+}
+.groupIcon5,
+.illustrationComponentsChild {
+  position: absolute;
+  top: 128.6px;
+  left: 107px;
+  width: 57.3px;
+  height: 20.6px;
+  z-index: 5;
+}
+.groupIcon5 {
+  top: 18.7px;
+  left: 21.7px;
+  width: 176.5px;
+  height: 56.4px;
+  z-index: 2;
+}
+.illustrationComponents {
+  height: 574.2px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.div1,
+.frameParent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.div1 {
+  overflow: hidden;
+  padding: 25.2px 17px 16.9px;
+  box-sizing: border-box;
+  min-width: 400px;
+}
+.frameParent {
+  gap: 91.6px;
+  text-align: left;
+  font-size: 45.4px;
+  color: var(--color-white);
+  font-family: var(--font-shiromeda);
+}
+.content,
+.landingPageWeb {
+  display: flex;
+  box-sizing: border-box;
+}
+.content {
+  width: 1254px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-35xl);
+  max-width: 100%;
+}
+.landingPageWeb {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-brown);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 96.7px;
+  gap: var(--gap-xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .frameParent {
+    gap: 46px;
+  }
+  .content {
+    padding-left: var(--padding-8xl);
+    padding-right: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .b {
+    font-size: 36px;
+  }
+  .quoteContentWrapper {
+    flex: 1;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .div1,
+  .quoteContentWrapper {
+    padding-top: var(--padding-35xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .div1 {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+  }
+  .frameParent {
+    gap: 23px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .b {
+    font-size: 27px;
+  }
+  .quoteParagraph {
+    gap: 22px;
+  }
+  .quoteContent {
+    gap: 30px;
+  }
+}
